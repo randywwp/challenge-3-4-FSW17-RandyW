@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <!-- style web -->
+    <link rel="stylesheet" href="css/play_webstyle.css">
+    
+    <!-- gameplay -->
+    <link rel="stylesheet" href="css/play_game.css">
+
+   
+    <title>Challenge 4 Project FSW17-Randy W</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- title start -->
+        <section id="main-title">
+            <div class="container-fluid">
+                <div class="main-title-bar row">
+                    <a class="col-lg-1 back-button align-self-center text-center" href="index.html">
+                        <img class="back-button-img" src="assets/back.svg" alt="Back">
+                    </a>
+                    <img class="logo col-lg-2 img-fluid align-self-center" src="assets/logo1.png" alt="Logo">
+                    <h1 class="game-title col-lg-9 align-self-center">ROCK PAPER SCISSORS</h1>
+                </div>
+            </div>
+        </section>
+        <!-- title end -->
+
+        <!-- gameplay start -->
+        <section id="gameplay">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-4 rps-container">
+                        <div class="player text-center">
+                            PLAYER 1
+                        </div>
+                        <div class=" game-img-container rock-player">
+                            <img class="img-fluid game-img mx-auto rock-img" src="assets/batu.png" alt="rock">
+                        </div>
+                        <div class=" game-img-container paper-player">
+                            <img class="img-fluid game-img mx-auto" src="assets/kertas.png" alt="paper">
+                        </div>
+                        <div class=" game-img-container scissor-player">
+                            <img class="img-fluid game-img mx-auto " src="assets/gunting.png" alt="scissor">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-4 align-self-center">
+                        <h1 class="win-lose vs">
+                            VS
+                        </h1>
+                    </div>
+                    <div class="col-sm-4 col-4 rps-container">
+                        <div class="player text-center ">
+                            COM
+                        </div>
+                        <div class="game-img-container rock-com">
+                            <img class="img-fluid game-img mx-auto rock-img" src="assets/batu.png" alt="rock">
+                        </div>
+                        <div class=" game-img-container paper-com">
+                            <img class="img-fluid game-img mx-auto" src="assets/kertas.png" alt="paper">
+                        </div>
+                        <div class=" game-img-container scissor-com">
+                            <img class="img-fluid game-img mx-auto" src="assets/gunting.png" alt="scissor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gameplay end -->
+
+        <!-- refresh button start -->
+        <section id="refresh-section">
+            <div class="container-fluid">
+                <div class="refresh-container">
+                    <div class="refresh">
+                        <img class="img-fluid refresh-img" src="assets/refresh.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- refresh button end -->
+
+    <!-- game-script -->
+    <script src="play.js"></script>
+    
+    <!-- bootstrap script bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
